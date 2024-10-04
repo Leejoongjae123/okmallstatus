@@ -327,7 +327,6 @@ while True:
             print("가져오기에러1")
           time.sleep(5)
         
-        inputList=inputList[:100]
         with open('inputList.json', 'w',encoding='utf-8-sig') as f:
             json.dump(inputList, f, indent=2,ensure_ascii=False)
 
